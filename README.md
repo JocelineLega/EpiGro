@@ -2,7 +2,7 @@
 
 This repository contains epidemiological data from a variety of outbreaks, as well as EpiGro source codes (v.1.0) written in MATLAB. These files accompany the following research article.
 
-<ul><li>J. Lega and H.E. Brown, <a href="http://dx.doi.org/10.1016/j.epidem.2016.10.002">Data-driven outbreak forecasting with a simple nonlinear growth model</a>, Epidemics **17**, 19-26 (2016).</li></ul>
+<ul><li>J. Lega and H.E. Brown, <a href="http://dx.doi.org/10.1016/j.epidem.2016.10.002">Data-driven outbreak forecasting with a simple nonlinear growth model</a>, Epidemics <b>17</b>, 19-26 (2016).</li></ul>
 
 ## MATLAB Files
 ### EpiGro v.1.0
@@ -22,3 +22,4 @@ In each file, the `Data` sheet contains the epidemiological data. The `Output` s
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+See LICENSE.txt in this repository for additional information.
