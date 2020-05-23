@@ -12,12 +12,12 @@ The codes should be run via the provided graphical user interface. To start, ope
 In each file, the `Data` sheet contains the epidemiological data. The `Output` sheet was added by `EpiGro`. It lists model parameters and compares model predictions to the reported data. When relevant, the `Metadata` sheet contains details of the data collection procedure.
 
 ### Data sources
-<ul><li>Chikungunya: http://www.paho.org/hq/index.php?option=com_topics&view=readall&cid=5927&Itemid=40931&lang=en</li>
-<li>Ebola: https://data.hdx.rwlabs.org/dataset/ebola-cases-2014</li>
-<li>Gastroenteritis: http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=19070</li>
-<li>H1N1: http://bmcresnotes.biomedcentral.com/articles/10.1186/1756-0500-3-283</li>
-<li>Pertussis: http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6128a1.htm</li>
-<li>Salmonella: http://www.cdc.gov/salmonella/saintpaul-jalapeno/epidemic_curve.html</li>
+<ul><li><a href="http://www.paho.org/hq/index.php?option=com_topics&view=readall&cid=5927&Itemid=40931&lang=en">Chikungunya</a></li>
+<li><a href="https://data.hdx.rwlabs.org/dataset/ebola-cases-2014">Ebola</a></li>
+<li><a href="http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=19070">Gastroenteritis</a></li>
+<li><a href="http://bmcresnotes.biomedcentral.com/articles/10.1186/1756-0500-3-283">H1N1</a></li>
+<li><a href="http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6128a1.htm">Pertussis</a></li>
+<li><a href="http://www.cdc.gov/salmonella/saintpaul-jalapeno/epidemic_curve.html">Salmonella</a></li>
 </ul>
 
 ## License
