@@ -2,7 +2,7 @@
 
 EpiGro is a disease outbreak forecasting tool. It started (<a href="#v1">v.1.0</a>) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. <a href="#v2">Version 2.0</a> incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. <a href="#v3">Version 3.0</a>, developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with data assimilation techniques.
 
-## <a NAME=v1 />EpiGro v.1.0
+## EpiGro v.1.0
 ### Model
 EpiGro v.1.0 was developed in response to the <a href="https://www.innocentive.com/ar/challenge/9933617">DARPA Chikungunya Challenge</a> and is described in <a href="http://dx.doi.org/10.1016/j.epidem.2016.10.002">Lega \& Brown (2016)</a>. The approach relies on the empirical observation that weekly incidence data for the 2014 outbreak of chikungunya in Guadeloupe, plotted as a function of the cumulative number of cases, can be fitted with a parabola. This simple fact means that the cumulative number of cases may in turn be approximated by a quantity that follows logistic growth, confirming previous observations reported in the literature for other diseases (<a href="https://doi.org/10.1371/currents.outbreaks.b4690859d91684da963dc40e00f3da81">Chowell et al., 2014</a>).
 
@@ -13,7 +13,7 @@ The codes released for EpiGro v.1.0 consist of a MATLAB Graphical User Interface
 
 ![EpiGro GUI](./EpiGro_GUI.jpg)
 
-## <a NAME=v2 />EpiGro v.2.0
+## EpiGro v.2.0
 ### Model
 EpiGro v.2.0 fits outbreak epidemiological data to the ICC curve of the SIR model. The exact formulation, derived in <a href="http://arxiv.org/abs/2005.08134">Lega (2020)</a>, is given by
 
@@ -33,7 +33,7 @@ The MATLAB codes provided for version 2.0 of EpiGro find the ICC curve associate
 
 ![ICC curve for the COVID-19 outbreak in Arizona](./EpiGro_v2.png)
 
-## <a NAME=v3 />EpiGro v.3.0 - EpiGro-DA
+## EpiGro v.3.0 - EpiGro-DA
 ### Model
 EpiGro v.3.0, or EpiGro-DA combines Bayesian data assimilation methods with the exact formulation of the SIR ICC curve, to provide forecasts for ongoing outbreaks. Details are provided in Biegel \& Lega (2020).
 
