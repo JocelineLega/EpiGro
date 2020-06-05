@@ -1,6 +1,6 @@
 # EpiGro
 
-EpiGro is a disease outbreak forecasting tool. It started ([v.1.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v10)) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. [Version 2.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#EpiGro-v20) incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. [Version 3.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v30---epicovda), developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with variational data assimilation techniques.
+EpiGro is a disease outbreak forecasting tool. It started ([v.1.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v10)) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. [Version 2.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#EpiGro-v20) incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. [Version 3.0](#epigro-v30---epicovda), developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with variational data assimilation techniques.
 
 ## EpiGro v.1.0
 ### Model
