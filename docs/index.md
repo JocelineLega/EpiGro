@@ -35,7 +35,7 @@ The MATLAB codes provided for version 2.0 of EpiGro find the ICC curve associate
 
 ## EpiGro v.3.0 - EpiCovDA
 ### Model
-EpiGro v.3.0, or EpiCovDA combines variational data assimilation methods with the exact formulation of the SIR ICC curve, to provide forecasts for ongoing outbreaks. Details are provided in Biegel & Lega (2020).
+EpiGro v.3.0, or EpiCovDA combines variational data assimilation methods with the exact formulation of the SIR ICC curve, to provide forecasts for ongoing outbreaks. Details will be provided in Biegel & Lega (2020).
 
 Priors are found by processing the early stages of the outbreak data with EpiGro v.2.0. The data assimilation step identifies parameters by minimizing a cost function that combines distance from prior values as well as distance between data points collected in the last 5 days and the selected ICC curve. Forecasts are obtained by integration of the ICC curve for parameter values in the posterior distribution.
 
