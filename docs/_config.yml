@@ -1,4 +1,4 @@
 markdown: kramdown
 kramdown:
-  math_engine: true
+  math_engine: mathjax
 theme: jekyll-theme-time-machine
