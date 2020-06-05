@@ -17,9 +17,7 @@ The codes released for EpiGro v.1.0 consist of a MATLAB Graphical User Interface
 ### Model
 EpiGro v.2.0 fits outbreak epidemiological data to the ICC curve of the SIR model. The exact formulation, derived in [Lega (2020)](http://arxiv.org/abs/2005.08134), is given by
 
-\[
-{\mathcal I} = \displaystyle \beta \left(C + \frac{N}{R_0} \ln\left(1 - \frac{C}{N}\right) - \frac{N}{R_0} \ln(\kappa) \right) \left(1 - \frac{C}{N} \right),
-\]
+![](./ICC_Curve_Eq.png)
 
 where *I* is incidence, &beta; is the contact rate of the disease, *C* is the cumulative number of cases, *N* is the size of the population, *R*<sub>0</sub> is the basic reproductive number, and &kappa; represents initial conditions. 
 
