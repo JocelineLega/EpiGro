@@ -21,7 +21,7 @@ EpiGro v.2.0 fits outbreak epidemiological data to the ICC curve of the SIR mode
 {\mathcal I} = \displaystyle \beta \left(C + \frac{N}{R_0} \ln\left(1 - \frac{C}{N}\right) - \frac{N}{R_0} \ln(\kappa) \right) \left(1 - \frac{C}{N} \right),
 \]
 
-where \(\mathcal I\) is incidence, \(\beta\) is the contact rate of the disease, $C$ is the cumulative number of cases, $N$ is the size of the population, $R_0$ is the basic reproductive number, and $\kappa$ represents initial conditions. 
+where `\(\mathcal I\)` is incidence, `\(\beta\)` is the contact rate of the disease, $C$ is the cumulative number of cases, $N$ is the size of the population, $R_0$ is the basic reproductive number, and $\kappa$ represents initial conditions. 
 
 The following results are also established in <a href="http://arxiv.org/abs/2005.08134">Lega (2020)</a>.
 
