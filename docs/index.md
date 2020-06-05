@@ -1,6 +1,6 @@
 # EpiGro
 
-EpiGro is a disease outbreak forecasting tool. It started ([v.1.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v10)) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. [Version 2.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#EpiGro-v20) incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. [Version 3.0](#epigro-v30---epicovda), developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with variational data assimilation techniques.
+EpiGro is a disease outbreak forecasting tool. It started ([v.1.0](#epigro-v10)) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. [Version 2.0](#EpiGro-v20) incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. [Version 3.0](#epigro-v30---epicovda), developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with variational data assimilation techniques.
 
 ## EpiGro v.1.0
 ### Model
@@ -21,12 +21,12 @@ EpiGro v.2.0 fits outbreak epidemiological data to the ICC curve of the SIR mode
 {\mathcal I} = \displaystyle \beta \left(C + \frac{N}{R_0} \ln\left(1 - \frac{C}{N}\right) - \frac{N}{R_0} \ln(\kappa) \right) \left(1 - \frac{C}{N} \right),
 \]
 
-where \(\mathcal I\) is incidence, \(\beta\) is the contact rate of the disease, $C$ is the cumulative number of cases, $N$ is the size of the population, $R_0$ is the basic reproductive number, and $\kappa$ represents initial conditions. 
+where *I* is incidence, &beta; is the contact rate of the disease, *C* is the cumulative number of cases, *N* is the size of the population, *R*<sub>0</sub> is the basic reproductive number, and &kappa; represents initial conditions. 
 
 The following results are also established in <a href="http://arxiv.org/abs/2005.08134">Lega (2020)</a>.
 
-1. Solving the differential equation given by the above ICC curve (with incidence $\mathcal I$ equal to the time derivative of $C$) is equivalent to solving the SIR model.
-2. For fixed $N$, there is a unique set of parameter values $\beta$, $R_0$, and $\kappa$ that minimizes the RMSE between the resulting ICC curve and the data points. This form of itentifiability is one of the main advantages of fitting ICC curves, rather than epidemiological curves, to outbreak data.
+1. Solving the differential equation given by the above ICC curve (with incidence *I* equal to the time derivative of *C*) is equivalent to solving the SIR model.
+2. For fixed *N*, there is a unique set of parameter values &beta;, *R*<sub>0</sub>, and &kappa; that minimizes the RMSE between the resulting ICC curve and the data points. This form of itentifiability is one of the main advantages of fitting ICC curves, rather than epidemiological curves, to outbreak data.
 
 Due to its equivalence with the SIR model, EpiGro v.2.0 is a mechanistic approach that fits a SIR model to outbreak data.
 
@@ -37,7 +37,7 @@ The MATLAB codes provided for version 2.0 of EpiGro find the ICC curve associate
 
 ## EpiGro v.3.0 - EpiCovDA
 ### Model
-EpiGro v.3.0, or EpiCovDA combines variational data assimilation methods with the exact formulation of the SIR ICC curve, to provide forecasts for ongoing outbreaks. Details are provided in Biegel \& Lega (2020).
+EpiGro v.3.0, or EpiCovDA combines variational data assimilation methods with the exact formulation of the SIR ICC curve, to provide forecasts for ongoing outbreaks. Details are provided in Biegel & Lega (2020).
 
 Priors are found by processing the early stages of the outbreak data with EpiGro v.2.0. The data assimilation step identifies parameters by minimizing a cost function that combines distance from prior values as well as distance between data points collected in the last 5 days and the selected ICC curve. Forecasts are obtained by integration of the ICC curve for parameter values in the posterior distribution.
 
