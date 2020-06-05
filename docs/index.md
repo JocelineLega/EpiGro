@@ -15,7 +15,7 @@ The codes released for EpiGro v.1.0 consist of a MATLAB Graphical User Interface
 
 ## EpiGro v.2.0
 ### Model
-EpiGro v.2.0 fits outbreak epidemiological data to the ICC curve of the SIR model. The exact formulation, derived in <a href="http://arxiv.org/abs/2005.08134">Lega (2020)</a>, is given by
+EpiGro v.2.0 fits outbreak epidemiological data to the ICC curve of the SIR model. The exact formulation, derived in [Lega (2020)](http://arxiv.org/abs/2005.08134), is given by
 
 ${\mathcal I} = \displaystyle \beta \left(C + \frac{N}{R_0} \ln\left(1 - \frac{C}{N}\right) - \frac{N}{R_0} \ln(\kappa) \right) \left(1 - \frac{C}{N} \right),$
 
