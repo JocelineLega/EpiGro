@@ -1,7 +1,7 @@
 UA16-052 EpiGro software is Copyright (c) 2015-2020 Arizona Board of Regents on behalf of the University of Arizona (ARIZONA).
 All rights reserved. This software is being released under CC-BY-NC-SA 4.0
  
-Developed by: Joceline Lega. Find out more at: http://lega.uazmath.org/
+Developed by: Joceline Lega. Find out more at: https://jocelinelega.github.io/EpiGro/
  
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
