@@ -1,6 +1,6 @@
 # EpiGro
 
-EpiGro is a disease outbreak forecasting tool. It started ([v.1.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v10)) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. [Version 2.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#EpiGro-v20) incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. [Version 3.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v30---epigro-da), developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with data assimilation techniques.
+EpiGro is a disease outbreak forecasting tool. It started ([v.1.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v10)) as a phenonmenological model that described incidence as a quadratic function of the cumulative number of cases. [Version 2.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#EpiGro-v20) incorporated the exact definition of the ICC (Incidence - Cumulative Cases) curve for the SIR model, thereby transforming EpiGro into a mechanistic model. [Version 3.0](https://github.com/JocelineLega/EpiGro/blob/master/docs/index.md#epigro-v30---epicov-da), developed for COVID-19 forecasting, combines the mechanistic approach of EpiGro (v.2.0) with variational data assimilation techniques.
 
 ## EpiGro v.1.0
 ### Model
@@ -33,7 +33,7 @@ The MATLAB codes provided for version 2.0 of EpiGro find the ICC curve associate
 
 ![ICC curve for the COVID-19 outbreak in Arizona](./EpiGro_v2.png)
 
-## EpiGro v.3.0 - EpiGro-DA
+## EpiGro v.3.0 - EpiCov-DA
 ### Model
 EpiGro v.3.0, or EpiGro-DA combines Bayesian data assimilation methods with the exact formulation of the SIR ICC curve, to provide forecasts for ongoing outbreaks. Details are provided in Biegel \& Lega (2020).
 
