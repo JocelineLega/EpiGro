@@ -29,7 +29,7 @@ The following results are also established in <a href="http://arxiv.org/abs/2005
 Due to its equivalence with the SIR model, EpiGro v.2.0 is a mechanistic approach that fits a SIR model to outbreak data.
 
 ### Release
-The MATLAB codes provided for version 2.0 of EpiGro were used to generate the figures of <a href="http://arxiv.org/abs/2005.08134">Lega (2020)</a>. They may be run to find the ICC curve associated with user-provided epidemiological data and estimate ranges of suitable parameter values in the presence of reporting noise. They also describe a method to find a range of values of *N* if the latter variable is unknown. Moreover simple forecasting based on a fit of the ICC curve to the data is discussed.
+The MATLAB codes provided for version 2.0 of EpiGro were used to generate the figures of <a href="http://arxiv.org/abs/2005.08134">Lega (2020)</a>. They may be run to find the ICC curve associated with user-provided epidemiological data and estimate ranges of suitable parameter values in the presence of reporting noise. They also describe a method to find a range of values of *N* if the latter variable is unknown.
 
 ![ICC curve for the COVID-19 outbreak in Arizona](./EpiGro_v2.png)
 
